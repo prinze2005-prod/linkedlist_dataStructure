@@ -14,10 +14,10 @@ public:
     std::string course;
     std::string quali;
     std::string phoneNum;
-    Node *data;
+    Node *next;
 
     Node(int r, const std::string &n, const std::string &c, const std::string &e, const std::string &ph)
-        : rollNum(r), name(n), course(c), quali(e), phoneNum(ph), data(nullptr)
+        : rollNum(r), name(n), course(c), quali(e), phoneNum(ph), next(nullptr)
     {
     }
 
@@ -35,10 +35,8 @@ public:
     void Insert();
     void Search();
     void Count();
-    void update();
     void Del();
     void show();
-    void ShowFile();
 };
 
 #endif
