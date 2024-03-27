@@ -1,9 +1,12 @@
 #include <iostream>
 #include "linkedList.h"
 
+/// @brief 
+/// @return 
 int main()
 {
     linked_list obj;
+    
 
 p:
 
@@ -53,5 +56,6 @@ p:
     }
     getchar();
     goto p;
+    
     return 0;
 };

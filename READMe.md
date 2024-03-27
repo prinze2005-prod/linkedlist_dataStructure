@@ -2,14 +2,14 @@ Linked List Data structure Project
 
 Overview
 
-This project implements a linked list next structure to manage student records. It allows operations such as insertion, searching, deletion, counting, and display student records.
+This project implements a linked list data structure to manage student records. It allows operations such as insertion, searching, deletion, and listing of student records.
 Contents:
 
     Introduction
     Classes and Functions
     Usage
     Contributing
-    License
+    Running the program
 
 Introduction
 
@@ -52,4 +52,5 @@ Contributing:
 Contributions to this project are welcome. If you find any bugs or have suggestions for improvement, please submit an issue or create a pull request on the GitHub repository.
 License
 
-This project is free for duplication upgrade or correction.
+Running the program
+To run the program, you need to first compile it. Compile the program in the terminal using `Make ` command. This will compile it and then you can run the project using `./Project`
